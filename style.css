@@ -9,9 +9,9 @@
 }
 
 
-/***************/
-/**** MAIN *****/
-/***************/
+/*****************/
+/**** HEADER *****/
+/*****************/
 
 .header-settings {
     background-color: #add8e6;
@@ -30,3 +30,26 @@
     border: 1px dashed #000000;
     padding: 5px;
 }
+
+.header-logo {
+    flex-grow: 1;
+}
+
+.header-link {
+    flex-grow: 3;
+    justify-content: center;
+
+}
+
+.header-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header-login {
+    text-align: end;
+    flex-grow: 1;
+}
+
