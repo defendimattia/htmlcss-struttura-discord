@@ -103,7 +103,14 @@
     flex-basis: 40%;
 }
 
+.main-section2 {
+    padding: 50px 0;
+    background-color: #d3d3d3
+}
 
+.inverted {
+    flex-direction: row-reverse;
+}
 .debugger {
     height: 300px;
 }
