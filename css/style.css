@@ -8,6 +8,7 @@
     box-sizing: border-box;
 }
 
+
 /******************/
 /**** GENERAL *****/
 /******************/
@@ -31,8 +32,10 @@
     display: flex;
     background-color: #daa520;
     justify-content: center;
-    width: 1200px;
-    margin: 0 auto;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10px;
 }
 
 .header-nav > div {
@@ -63,13 +66,15 @@
 
 .one-box-section {
     background-color: #00008b;
-    padding: 50px 25% 50px 25%;
-    margin-top: 10px;
+    padding: 50px 0;
+
 }
 
-.box {
+.upper-box {
+    display: flex;
+    margin: 0 auto;
     background-color: #ffc0cb;
-    height: 400px;
+    width: 900px;
 }
 
 /*****************/
@@ -111,4 +116,9 @@
 .last-box {
     background-color: #228b22;
     height: 900px;
+}
+
+
+.debugger {
+    height: 300px;
 }
