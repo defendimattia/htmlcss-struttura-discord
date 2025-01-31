@@ -8,6 +8,14 @@
     box-sizing: border-box;
 }
 
+/******************/
+/**** GENERAL *****/
+/******************/
+
+.border {
+    border: 1px dashed #000000;
+}
+
 
 /*****************/
 /**** HEADER *****/
@@ -15,7 +23,8 @@
 
 .header-settings {
     background-color: #add8e6;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
 }
 
 .header-nav {
@@ -27,7 +36,6 @@
 }
 
 .header-nav > div {
-    border: 1px dashed #000000;
     padding: 5px;
 }
 
