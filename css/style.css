@@ -102,3 +102,13 @@
     background-color: #d3d3d3;
     flex-direction: row-reverse;
 } 
+
+.last-main-section {
+    background-color: #d3d3d3;
+    padding: 50px 20% 50px 20%;
+}
+
+.last-box {
+    background-color: #228b22;
+    height: 900px;
+}
