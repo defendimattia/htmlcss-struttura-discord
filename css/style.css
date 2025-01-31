@@ -81,41 +81,26 @@
 /****** MAIN *****/
 /*****************/
 
-.two-boxes-section {
+.main-section {
+    padding: 50px 0;
+    background-color: #ffffff;
+}
+
+.box-section {
+    max-width: 1200px;
+    margin: 0 auto;
     display: flex;
-    justify-content: center; 
-    padding: 50px 0; 
-    background-color: #ffffff;  
+
 }
 
 .box1 {
     background-color: #1e90ff;
-    flex-basis: 35%;
-    height: 500px;
+    flex-basis: 60%;
 }
 
 .box2 {
     background-color: #ffc0cb;
-    flex-basis: 20%;
-    height: 500px;
-}
-
-.two-boxes-section2 {
-    display: flex;
-    justify-content: center; 
-    padding: 50px 0;
-    background-color: #d3d3d3;
-    flex-direction: row-reverse;
-} 
-
-.last-main-section {
-    background-color: #d3d3d3;
-    padding: 50px 20% 50px 20%;
-}
-
-.last-box {
-    background-color: #228b22;
-    height: 900px;
+    flex-basis: 40%;
 }
 
 
