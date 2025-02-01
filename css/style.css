@@ -55,6 +55,10 @@
     background-color: #20b2aa;
 }
 
+.bg-lightteal {
+    background-color: #7fffd4;
+}
+
 .debugger {
     height: 500px;
 }
@@ -155,4 +159,31 @@
 
 .inside-box {
     flex-basis: 25%;
+}
+
+.footer-down-section {
+    padding-top: 35px;
+    border-top: #d3d3d3 solid 2px;
+    border-bottom: #d3d3d3 solid 2px;
+    padding-top: 50px;
+}
+
+.footer-box-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer-logo {
+    padding: 5px;
+}
+
+.footer-button {
+    all: unset;
+    border: #000000 dashed 2px;
+    padding: 5px;
+    background-color: #ffc0cb;
 }
